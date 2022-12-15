@@ -59,52 +59,52 @@ include 'libs/link.php';
 	</header><!-- End Header -->
 
 	<?php
-  link_temp('_header');
-?>
+    link_temp('_header');
+    ?>
 
 	<main id="main">
 
 		<?php
-  link_temp('_about')
-?>
+        link_temp('_about')
+        	?>
 
 		<?php
-link_temp('_facts');
-?>
+        link_temp('_facts');
+        ?>
 
 		<?php
-link_temp('_skills');
-?>
+        link_temp('_skills');
+        ?>
 
 		<?php
-link_temp('_resume');
-?>
+        link_temp('_resume');
+        ?>
 
 		<?php
-link_temp('_Project');
-?>
+        link_temp('_Project');
+        ?>
 
 		<?php
-    // link_temp('_services');
-?>
+        // link_temp('_services');
+        ?>
 
 		<?php
-    // link_temp('_testimonials');
-?>
+        // link_temp('_testimonials');
+        ?>
 
 		<?php
-link_temp('_contacts');
-?>
+        link_temp('_contacts');
+        ?>
 
 	</main>
 
 	<?php
-  link_temp('_footer');
-?>
+    link_temp('_footer');
+    ?>
 
 	<?php
-link_temp('_script');
-?>
+    link_temp('_script');
+    ?>
 
 </body>
 
