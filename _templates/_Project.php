@@ -26,13 +26,13 @@
                         <h4>App 1</h4>
                         <p>App</p>
                         <div class="portfolio-links">
-                            <a href="./sankari_project" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox" title="First Project"><i class="bx bx-plus"></i></a>
-                            <a href="./sankari_project" class="portfolio-details-lightbox"
+                            <a href="./Projects/sankari_project" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                                title="First Project"><i class="bx bx-plus"></i></a>
+                            <a href="./Projects/sankari_project" class="portfolio-details-lightbox"
                                 data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                         <div class="project-btn"><button class="btn-po" type="open" id="p-btn"> <a
-                                    href="./sankari_project/">Demo</button></a></div>
+                                    href="./Projects/sankari_project">Demo</button></a></div>
                     </div>
                 </div>
             </div>
@@ -46,9 +46,11 @@
                         <div class="portfolio-links">
                             <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="portfolio-details-lightbox"
+                            <a href="./Projects/Realestate" class="portfolio-details-lightbox"
                                 data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
+                        <div class="project-btn"><button class="btn-po" type="open" id="p-btn"> <a
+                                    href="./Projects/Realestate">Demo</button></a></div>
                     </div>
                 </div>
 
