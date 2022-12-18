@@ -21,13 +21,13 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                    <img src="assets/img/portfolio/Sankari.png" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>App 1</h4>
                         <p>App</p>
                         <div class="portfolio-links">
-                            <a href="./Projects/sankari_project" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                                title="First Project"><i class="bx bx-plus"></i></a>
+                            <a href="./Projects/sankari_project" data-gallery="portfolioGallery"
+                                class="portfolio-lightbox" title="First Project"><i class="bx bx-plus"></i></a>
                             <a href="./Projects/sankari_project" class="portfolio-details-lightbox"
                                 data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
@@ -39,12 +39,12 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                    <img src="assets/img/portfolio/realstate.png" class="img-fluid" alt="">
                     <div class="portfolio-info">
                         <h4>Web 3</h4>
                         <p>Web</p>
                         <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                            <a href="assets/img/portfolio/realstate.png" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                             <a href="./Projects/Realestate" class="portfolio-details-lightbox"
                                 data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
@@ -56,18 +56,20 @@
 
             </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                 <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                    <img src="assets/img/portfolio/Leadingpage.png" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>App 2</h4>
-                        <p>App</p>
+                        <h4>Landing page</h4>
+                        <p></p>
                         <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                                class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                            <a href="portfolio-details.html" class="portfolio-details-lightbox"
+                            <a href="assets/img/portfolio/Leadingpage.png" data-gallery="portfolioGallery"
+                                class="portfolio-lightbox" title="Card"><i class="bx bx-plus"></i></a>
+                            <a href="./Projects/Landing page" class="portfolio-details-lightbox"
                                 data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
+                        <div class="project-btn"><button class="btn-po" type="open" id="p-btn"> <a
+                                    href="./Projects/Landing page">Demo</button></a></div>
                     </div>
                 </div>
             </div>

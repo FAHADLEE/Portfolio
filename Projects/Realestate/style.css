@@ -168,33 +168,33 @@
     font-size: 5.5em !important;
     letter-spacing: 5px !important;
   }
-  .f-about{
+  .f-about {
     width: 100% !important;
-    margin-bottom:60px !important;
+    margin-bottom: 60px !important;
   }
-  .f-contact{
+  .f-contact {
     width: 100% !important;
     margin-left: 20px !important;
   }
-  .f-service{
+  .f-service {
     width: 100% !important;
-    margin-bottom:60px !important;
+    margin-bottom: 60px !important;
   }
-  .f-container{
+  .f-container {
     display: inline !important;
   }
   .f-b-para {
     width: 100% !important;
-}
-.n-card{
-  width: 100% !important;
-}
-.pics-wrapper {
-  display: inline !important;
-}
-.n-cards{
-  display: inline !important;
-}
+  }
+  .n-card {
+    width: 100% !important;
+  }
+  .pics-wrapper {
+    display: inline !important;
+  }
+  .n-cards {
+    display: inline !important;
+  }
   .blog {
     margin: 0px 54px !important;
   }
@@ -227,6 +227,9 @@
     font-size: 25px !important;
     left: 85px !important;
     bottom: -59px !important;
+  }
+  .footer{
+    display: flex !important; 
   }
   .w-para {
     padding-left: 60px !important;
@@ -1083,8 +1086,13 @@
   transition: all 400ms ease;
   text-align: center;
 }
+
 /* footer */
+footer{
+  display: flex;
+}
 .footer {
+  display: flex;
   position: relative;
   z-index: 1;
   width: 90%;
@@ -1125,7 +1133,7 @@
   font-weight: 600;
   position: relative;
 }
-.slink{
+.slink {
   position: relative;
 }
 .line {
@@ -1159,7 +1167,7 @@
 .f-link:hover::after {
   background-color: #fff;
 }
-.s-f-link{
+.s-f-link {
   color: #fff;
   margin: 20px 0px;
   text-transform: uppercase;
@@ -1169,11 +1177,10 @@
   font-weight: 600;
   letter-spacing: 1px;
   /* top: 20px; */
-  position: absolute;  
+  position: absolute;
 }
-.footer-link{
+.footer-link {
   padding-bottom: 35px;
-
 }
 .s-f-link::after {
   content: "";
