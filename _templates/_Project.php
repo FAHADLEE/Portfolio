@@ -94,7 +94,7 @@
                 <div class="portfolio-wrap">
                     <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Web 2</h4>
+                        <h4>calculator</h4>
                         <p>Web</p>
                         <div class="portfolio-links">
                             <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
@@ -102,6 +102,8 @@
                             <a href="portfolio-details.html" class="portfolio-details-lightbox"
                                 data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
+                        <div class="project-btn"><button class="btn-po" type="open" id="p-btn"> <a
+                                    href="./Projects/calculator">Demo</button></a></div>
                     </div>
                 </div>
             </div>
@@ -134,6 +136,8 @@
                             <a href="portfolio-details.html" class="portfolio-details-lightbox"
                                 data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
+                        <div class="project-btn"><button class="btn-po" type="open" id="p-btn"> <a
+                                    href="./Projects/Shoping">Demo</button></a></div>
                     </div>
                 </div>
             </div>
@@ -156,16 +160,18 @@
 
             <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                 <div class="portfolio-wrap">
-                    <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                    <img src="assets/img/portfolio/Treval_Agency.png" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Web 3</h4>
+                        <h4>Treval Agency</h4>
                         <p>Web</p>
                         <div class="portfolio-links">
-                            <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                            <a href="assets/img/portfolio/Treval_Agency" data-gallery="portfolioGallery"
                                 class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                             <a href="portfolio-details.html" class="portfolio-details-lightbox"
                                 data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
+                        <div class="project-btn"><button class="btn-po" type="open" id="p-btn"> <a
+                                    href="./Projects/Treval_Agency">Demo</button></a></div>
                     </div>
                 </div>
             </div>

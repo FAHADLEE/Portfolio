@@ -480,7 +480,9 @@ section {
   padding: 0;
 }
 .about .content ul li {
-  margin-bottom: 20px;
+  width: 190%;
+  font-size: 22px;
+  margin-bottom: 39px;
   display: flex;
   align-items: center;
 }

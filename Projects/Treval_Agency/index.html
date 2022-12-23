@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6e0dce9633.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Treval_Agency</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a class="logo" href=""><img src="" alt="">Travel Agency</a>
+            <div class="nav-link" id="navLink">
+
+                <i class="fa-solid fa-xmark" onclick="Hidemanu()"></i>
+                <ul>
+
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTECT US</a></li>
+                    <span class="nav-btn">
+                        <a id="btn-rts" href="">REGISTER</a>
+                        <a id="btn-login" href="">LOGIN </a>
+                    </span>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="Showmanu()"></i>
+        </nav>
+        <div class="header-text">
+            <h5>Enjoy The Best Destinations With Our Travel Agency</h5>
+            <h1><span class="font">Explore</span><span class="font-bold"> The Traveling</span></h1>
+            </h1>
+            <a class="str-btn" href="">View More <i class="fa fa-arrow-right-long"></i></a>
+        </div>
+    </section>
+    <!-- Tours -->
+    <section class="tour-tital">
+        <h3>PLAN TO TRIP</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="tour-container">
+            <div class="tour-img">
+                <img src="https://dummyimage.com/280x280/dddddd/fff.png&text=260x260" class="img-thumbnail">
+                <div>
+                    <h1>Delhi</h1>
+                </div>
+            </div>
+            <div class="tour-img">
+                <img src="https://dummyimage.com/280x280/dddddd/fff.png&text=260x260" class="img-thumbnail">
+                <div>
+                    <h1>Mumbai</h1>
+                </div>
+            </div>
+            <div class="tour-img">
+                <img src="https://dummyimage.com/280x280/dddddd/fff.png&text=260x260" class="img-thumbnail">
+                <div>
+                    <h1>Goa</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script>
+    var navLink = document.getElementById("navLink");
+    function Showmanu() {
+        navLink.style.display = "block";
+    }
+    function Hidemanu() {
+        navLink.style.display = "none";
+    }
+</script>
+
+</html>
