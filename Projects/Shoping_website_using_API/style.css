@@ -1,0 +1,490 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    padding-top: 10vh;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .topbar .cart {
+    padding: 15px;
+    position: relative;
+  }
+
+  .topbar .cart .bi-cart2{
+    font-size: 20px;
+  }
+
+  .topbar .cart .count{
+    position: absolute;
+    top: 3px;
+    right: 4px;
+    font-size: small;
+    padding: 0px 4px;
+    border-radius: 50%;
+    color: #fff;
+    background: #009688;
+  }
+
+  .section-heading {
+    margin-top: 100px;
+    margin-left: 150px;
+    color: rgb(27, 25, 25);
+  }
+  .card-conatiner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 4%;
+  }
+  .card {
+    width: 15%;
+    min-width: 200px;
+    height: auto;
+    margin: 30px 10px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  .card a {
+    text-decoration: none;
+    color: #fff;
+  }
+  .card:hover {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+  }
+  .card .img img {
+    width: 100%;
+  }
+  .card .details {
+    padding-left: 10px;
+    margin: 10px auto;
+  }
+  .card .details h3 {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(27, 25, 25);
+  }
+  .card .details h4 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+  }
+  .card .details h5 {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #009688;
+  }
+ header .topbar{
+    text-transform: uppercase;
+    width: 100%;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: white;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px 8%;
+  }
+
+  header .topbar h2 a{
+    text-decoration: none;
+    color: #009688;
+  }
+  header .topbar h2{
+    cursor: pointer;
+  }
+
+  header .topbar ul {
+    display: flex;
+  }
+  header .topbar ul li{
+    cursor: pointer;
+    list-style-type: none;
+    margin-left: 20px;
+  }
+  
+  header .topbar .logo a{
+    color: #009688;
+    transition: 0.4s;
+  }
+
+  header .topbar .logo .h-2{
+    font-size: 30px;
+    text-shadow: 5px 3px 2px #ccc;
+    transition: 0.4s;
+    color: #000;
+  }
+
+  header .topbar .logo a:hover{
+    text-shadow: 5px 3px 2px #ccc;
+    color: #000;
+
+  }
+
+  header .topbar .logo .h-2:hover{
+    color: #009688;
+    text-shadow: none;
+  }
+
+  header .topbar ul li a{
+    text-decoration-line: none;
+    color: #000;
+    transition: 0.2s;
+  }
+
+  header .topbar ul li a:hover{
+    color: #ccc;
+  }
+/* Cart */
+.section-heading {
+  margin-top: 100px;
+  margin-left: 70px;
+  color: rgb(27, 25, 25);
+}
+.card-conatiner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 4%;
+}
+.card {
+  width: 15%;
+  min-width: 200px;
+  height: auto;
+  margin: 30px 10px;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+.card a {
+  text-decoration: none;
+  color: #fff;
+}
+.card:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+.card .img img {
+  width: 100%;
+}
+.card .details {
+  padding-left: 10px;
+  margin: 10px auto;
+}
+.card .details h3 {
+  text-align: left;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: rgb(27, 25, 25);
+}
+.card .details h4 {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 12px;
+  color: rgb(110, 110, 110);
+}
+.card .details h5 {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #009688;
+}
+
+/*============== Product Page Style Start ==================================*/
+
+#product {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-column {
+  width: 40%;
+}
+.right-column {
+  width: 60%;
+  margin-top: 40px;
+  padding-left: 30px;
+}
+.left-column img {
+  width: 100%;
+  margin-top: 50px;
+}
+.product-description {
+  margin-bottom: 40px;
+}
+.product-description h1 {
+  font-weight: 300;
+  font-size: 44px;
+  letter-spacing: -2px;
+}
+.product-description h4 {
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: rgb(27, 25, 25);
+}
+.product-description h3 {
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: rgb(27, 25, 25);
+}
+.product-description h3 span {
+  color: #009688;
+  font-weight: bold;
+}
+.product-description p {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #86939e;
+}
+.product-preview .previewImg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top: 20px;
+}
+.product-preview .previewImg img {
+  margin: 5px;
+  width: 15%;
+  height: 30%;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+}
+.active {
+  border: 2px solid #009688;
+}
+
+.btn button {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  background-color: #009688;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.btn button:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+@media screen and (max-width: 768px) {
+  #product {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .left-column {
+    width: 100%;
+  }
+  .right-column {
+    width: 100%;
+    margin-top: 40px;
+    padding-left: 30px;
+  }
+  .left-column img {
+    margin-top: 30px;
+  }
+  .product-description h1 {
+    font-size: 34px;
+  }
+  .product-description h4 {
+    font-size: 14px;
+  }
+  .product-description h3 {
+    font-size: 17px;
+  }
+  .product-description p {
+    font-size: 14px;
+  }
+}
+/*============== Product Page Style End ==================================*/
+
+/*============== CheckOut Page Style Start ==================================*/
+
+#cart {
+  margin: 4% 6%;
+}
+#cart h1 {
+  font-weight: 300;
+  font-size: 40px;
+  letter-spacing: -2px;
+}
+.cart-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.left-side {
+  width: 52%;
+  margin-top: 60px;
+}
+.right-side {
+  width: 45%;
+  margin-top: 60px;
+}
+.left-side p {
+  color: rgb(27, 25, 25);
+  letter-spacing: 1px;
+  font-size: 20px;
+}
+.item {
+  display: flex;
+  width: 600px;
+  margin-top: 25px;
+  border-radius: 4px;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+.item img {
+  width: 80px;
+  height: 100px;
+  border-radius: 4px;
+}
+.item .detail {
+  padding-left: 15px;
+}
+.item .detail p {
+  font-size: 16px;
+  margin-top: 8px;
+}
+.total-amount {
+  width: 450px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 4px;
+  padding: 15px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+.total-amount h2 {
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+.total-amount p {
+  margin-top: 20px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: 200;
+}
+.total-amount p span {
+  font-weight: bold;
+  font-size: 20px;
+}
+.total-amount button {
+  font-size: 16px;
+  margin-top: 50px;
+  font-weight: 300;
+  color: #fff;
+  padding: 10px 20px;
+  letter-spacing: 2px;
+  background-color: #009688;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+.total-amount button:hover {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+}
+@media screen and (max-width: 1024px) {
+  .item {
+    width: 450px;
+  }
+  .total-amount {
+    width: 350px;
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 910px) {
+  .left-side {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .right-side {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .item {
+    width: 600px;
+  }
+  .total-amount {
+    width: 600px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 425px) {
+  .item {
+    width: 350px;
+  }
+  .item .detail h1 {
+    font-size: 20px;
+  }
+  .item .detail p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .item {
+    width: 325px;
+  }
+  .item .detail h1 {
+    font-size: 18px;
+  }
+  .total-amount {
+    width: 325px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .item {
+    width: 275px;
+  }
+  .item .detail h1 {
+    font-size: 16px;
+  }
+  .total-amount {
+    width: 275px;
+  }
+}
+
+.order-confirm {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.order-confirm img {
+  height: 300px;
+}
+.order-confirm h2 {
+  margin-top: 60px;
+}
+.order-confirm p {
+  margin-top: 10px;
+}

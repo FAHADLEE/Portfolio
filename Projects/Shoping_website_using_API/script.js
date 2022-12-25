@@ -192,6 +192,7 @@ var productList = [
   const section = document.createElement("section");
   
   section.classList.add('clothing')
+  section.setAttribute('id','Clothing')
   content.append(section);
   section.append(h2);
   
@@ -243,6 +244,8 @@ var productList = [
   content.append(section1)
   content.append(box1)
   section1.classList.add('accessories')
+  section1.setAttribute('id','accessories')
+
   section1.append(header1)
   section1.append(box)
   
@@ -256,6 +259,7 @@ var productList = [
     let h31 = document.createElement("h3");
     let h41 = document.createElement("h4");
     let h51 = document.createElement("h5");
+    let link = document.createElement("a");
     box1.classList.add("card-conatiner");
     cardDiv1.classList.add("card");
     imgDiv1.classList.add("img");
@@ -267,10 +271,12 @@ var productList = [
     let brand = (box.name = product.brand);
     let price = (box.name = product.price);
     img1.src = preview;
+    link.href = "./cart.html";
     content.append(box1);
     content.append(cardDiv1);
     content.append(imgDiv1);
     content.append(h31);
+    content.append(link);
     section.append(box1);
     box1.append(cardDiv1);
     detailDiv1.append(h31);
@@ -278,7 +284,9 @@ var productList = [
     detailDiv1.append(h51);
     cardDiv1.append(imgDiv1);
     cardDiv1.append(detailDiv1);
+    imgDiv1.append(link)
     imgDiv1.append(img1);
+    link.append(img1)
     img1.append(preview);
     h31.append(name);
     h41.append(brand);

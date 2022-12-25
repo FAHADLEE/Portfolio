@@ -22,8 +22,8 @@
 }
 
 .calculator form input {
-  width: 63px;
-  height: 63px;
+  width: 55px;
+  height: 55px;
   border-radius: 10px;
   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.062),
     5px 5px 15px rgba(0, 0, 0, 0.032);
@@ -47,7 +47,7 @@
 }
 
 .calculator form .equal {
-  width: 125px;
+  width: 115px;
   box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
   5px 5px 15px rgba(0, 0, 0, 0.1);
 }

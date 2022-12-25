@@ -128,7 +128,7 @@
                 <div class="portfolio-wrap">
                     <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
                     <div class="portfolio-info">
-                        <h4>Card 1</h4>
+                        <h4>Shoping_website</h4>
                         <p>Card</p>
                         <div class="portfolio-links">
                             <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
@@ -137,7 +137,7 @@
                                 data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
                         </div>
                         <div class="project-btn"><button class="btn-po" type="open" id="p-btn"> <a
-                                    href="./Projects/Shoping">Demo</button></a></div>
+                                    href="./Projects/Shoping_website_using_API">Demo</button></a></div>
                     </div>
                 </div>
             </div>
