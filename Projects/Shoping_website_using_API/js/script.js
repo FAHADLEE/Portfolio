@@ -293,4 +293,10 @@ var productList = [
     h51.append(`Rs ${price}`);
   
   });
+let basket = JSON.parse(localStorage.getItem("data")) || [];
   
+let calculation = () => {
+  let cartitem = document.getElementById("cartAmount");
+  cartitem.innerHTML = basket.map((x) => x.item).reduce((x, y) => x + y, 0);
+};
+calculation()

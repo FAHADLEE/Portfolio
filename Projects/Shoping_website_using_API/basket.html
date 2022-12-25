@@ -29,8 +29,27 @@
             </a>
         </nav>
     </header>
+    <section id="cart">
+        <h1>Checkout</h1>
+        <div class="cart-container" id="label">
+            <div class="left-side">
+                <p>Total Items: <span id="number-of-item"></span></p>
+                <div class="cart-items" id="cart-item-container"></div>
+            </div>
+            
+            <div class="right-side">
+                <div class="total-amount">
+                    <h2>Total Amount</h2>
+                    <p>Total Amount: Rs <span id="total-amount"></span></p>
+                    <a href="./orderconfirm.html">
+                        <button id="place-order">Place Order</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="./js/data.js"></script>
-    <script src="./js/cart.js"></script>
+    <script src="./js/basket.js"></script>
 </body>
 
 </html>
