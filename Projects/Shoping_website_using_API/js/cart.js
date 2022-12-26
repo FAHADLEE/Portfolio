@@ -96,7 +96,6 @@ productList1.map((productData) => {
   divbtn.append(pbtn);
   pbtn.innerHTML = "Add to cart";
   divbtn.classList.add("btn");
-
   let increment = (id) => {
     let search = basket.find((x) => x.id === productData.id);
     if (search === undefined) {

@@ -290,7 +290,8 @@ h6 {
         rgba(0, 0, 0, 0.486),
         rgba(149, 142, 142, 0.207)
       ),
-      url('https://i.pinimg.com/564x/52/04/71/520471cda915fe989fa55ff581c55ab1.jpg');
+      /* url('https://i.pinimg.com/564x/52/04/71/520471cda915fe989fa55ff581c55ab1.jpg'); */
+      url('../img/mobile.jpg');
 
     /* background-image: url(../img/mobile.jpg); */
     text-align: center;
@@ -307,7 +308,8 @@ h6 {
         rgba(0, 0, 0, 0.43),
         rgba(28, 26, 26, 0.423)
       ),
-      url('https://i.pinimg.com/564x/61/31/91/613191a0d795a587eac31f65e4f87ae8.jpg');
+      /* url('https://i.pinimg.com/564x/61/31/91/613191a0d795a587eac31f65e4f87ae8.jpg'); */
+      url('../img/fahad.jpg');
     text-align: center;
     padding-left: 20px;
     background-size: cover;
@@ -323,7 +325,8 @@ h6 {
         rgba(0, 0, 0, 0.542),
         rgba(149, 142, 142, 0.207)
       ),
-      url('https://i.pinimg.com/564x/ac/8a/39/ac8a39ac0e2da4e4ed2bf64c6af802d1.jpg');
+      /* url('https://i.pinimg.com/564x/ac/8a/39/ac8a39ac0e2da4e4ed2bf64c6af802d1.jpg'); */
+      url('../img/hero.jpg');
     position: relative;
   }
 }
@@ -334,7 +337,8 @@ h6 {
         rgba(0, 0, 0, 0.407),
         rgba(0, 0, 0, 0.207)
       ),
-      url('https://i.pinimg.com/564x/ac/8a/39/ac8a39ac0e2da4e4ed2bf64c6af802d1.jpg');
+      /* url('https://i.pinimg.com/564x/ac/8a/39/ac8a39ac0e2da4e4ed2bf64c6af802d1.jpg'); */
+      url('../img/hero.jpg');
     padding-left: 20px;
     background-size: cover;
     position: relative;

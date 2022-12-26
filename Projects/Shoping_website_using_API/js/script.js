@@ -206,6 +206,7 @@ var productList = [
     let h3 = document.createElement("h3");
     let h4 = document.createElement("h4");
     let h5 = document.createElement("h5");
+    let link1 = document.createElement("a");
     box.classList.add("card-conatiner");
     cardDiv.classList.add("card");
     imgDiv.classList.add("img");
@@ -216,6 +217,7 @@ var productList = [
     let brand = (box.name = product.brand);
     let price = (box.name = product.price);
     img.src = preview;
+    link1.href = `./cart.html#${product.id}`;
     content.append(box);
     content.append(cardDiv);
     content.append(imgDiv);
@@ -227,7 +229,9 @@ var productList = [
     detailDiv.append(h5);
     cardDiv.append(imgDiv);
     cardDiv.append(detailDiv);
+    imgDiv.append(link1);
     imgDiv.append(img);
+    link1.append(img)
     img.append(preview);
     h3.append(name);
     h4.append(brand);
@@ -271,7 +275,7 @@ var productList = [
     let brand = (box.name = product.brand);
     let price = (box.name = product.price);
     img1.src = preview;
-    link.href = "./cart.html";
+    link.href = `./cart.html#${product.id}`;
     content.append(box1);
     content.append(cardDiv1);
     content.append(imgDiv1);
