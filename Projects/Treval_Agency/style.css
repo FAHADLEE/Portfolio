@@ -21,7 +21,7 @@
   background-attachment: scroll, fixed;
 }
 nav {
-  position: sticky;
+  position:absolute;
   top: 0;
   display: flex;
   padding: 2% 6%;
